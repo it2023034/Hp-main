@@ -1,6 +1,6 @@
 import json
 import re
-from prompts import build_explanation_prompt
+from code.prompts import build_explanation_prompt
 
 
 def load_triples_from_json(path):

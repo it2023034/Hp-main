@@ -1,7 +1,7 @@
-from model import qwen
-from prompts import build_triple_extraction_prompt, build_explanation_prompt
-from explanation import extract_explanation_for_triple
-from utils import (
+from code.model import qwen
+from code.prompts import build_triple_extraction_prompt, build_explanation_prompt
+from code.explanation import extract_explanation_for_triple
+from code.utils import (
     load_file,
     parse_triples,
     extract_allowed_relations,
