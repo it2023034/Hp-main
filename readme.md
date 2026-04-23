@@ -6,7 +6,7 @@
 
 This API allows you to:
 
-1. Upload input files (e.g. CSV)
+1. Upload input files (e.g. TXT)
 2. Run a pipeline that extracts triples and explanations
 3. Retrieve the results as JSON
 
@@ -63,8 +63,7 @@ Multipart form-data with field name **files**
 
 ```bash
 curl -X POST "http://127.0.0.1:8000/upload" \
-  -F "files=@files/case.csv" \
-  -F "files=@files/example.csv"
+  -F "files=@files/case.txt"
 ```
 
 ---
