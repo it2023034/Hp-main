@@ -1,16 +1,16 @@
 [
   {
     "triple": {
-      "entity": "Wilfred King",
-      "attribute": "communicates_with",
-      "value": "Lucy"
+      "entity": "Lucy",
+      "attribute": "provides",
+      "value": "educational_support"
     }
   },
   {
     "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "educational_support"
+      "entity": "educational_support",
+      "attribute": "has_purpose",
+      "value": "provide guidance"
     }
   },
   {
@@ -22,277 +22,213 @@
   },
   {
     "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_journey_details"
+      "entity": "personal_guidance",
+      "attribute": "has_purpose",
+      "value": "accompany throughout investment journey"
     }
   },
   {
     "triple": {
       "entity": "Lucy",
       "attribute": "provides",
-      "value": "detailed_information"
+      "value": "link"
+    }
+  },
+  {
+    "triple": {
+      "entity": "link",
+      "attribute": "refers_to_entity",
+      "value": "http://www.CryptoGrowthX.com"
     }
   },
   {
     "triple": {
       "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity"
-    }
-  },
-  {
-    "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity_details"
-    }
-  },
-  {
-    "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity_link"
-    }
-  },
-  {
-    "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity_description"
-    }
-  },
-  {
-    "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity_guaranteed_returns"
-    }
-  },
-  {
-    "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity_experienced_investors"
-    }
-  },
-  {
-    "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity_exclusive_access"
-    }
-  },
-  {
-    "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity_secure_registration"
-    }
-  },
-  {
-    "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity_educational_support"
-    }
-  },
-  {
-    "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity_personal_guidance"
-    }
-  },
-  {
-    "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity_full_support"
-    }
-  },
-  {
-    "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity_journey_details"
-    }
-  },
-  {
-    "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity_journey_guidance"
-    }
-  },
-  {
-    "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity_journey_support"
-    }
-  },
-  {
-    "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity_journey_details"
-    }
-  },
-  {
-    "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity_journey_guidance"
-    }
-  },
-  {
-    "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity_journey_support"
-    }
-  },
-  {
-    "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity_journey_details"
-    }
-  },
-  {
-    "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity_journey_guidance"
-    }
-  },
-  {
-    "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity_journey_support"
-    }
-  },
-  {
-    "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity_journey_details"
-    }
-  },
-  {
-    "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity_journey_guidance"
-    }
-  },
-  {
-    "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity_journey_support"
-    }
-  },
-  {
-    "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity_journey_details"
-    }
-  },
-  {
-    "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity_journey_guidance"
-    }
-  },
-  {
-    "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity_journey_support"
-    }
-  },
-  {
-    "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity_journey_details"
-    }
-  },
-  {
-    "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity_journey_guidance"
-    }
-  },
-  {
-    "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity_journey_support"
-    }
-  },
-  {
-    "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity_journey_details"
-    }
-  },
-  {
-    "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity_journey_guidance"
-    }
-  },
-  {
-    "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity_journey_support"
-    }
-  },
-  {
-    "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity_journey_details"
-    }
-  },
-  {
-    "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity_journey_guidance"
-    }
-  },
-  {
-    "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity_journey_support"
-    }
-  },
-  {
-    "triple": {
-      "entity": "Lucy",
-      "attribute": "provides",
-      "value": "investment_opportunity_j"
+      "attribute": "communicates_with",
+      "value": "Wilfred King"
     }
   },
   {
     "triple": {
       "entity": "Wilfred King",
-      "attribute": "rdf:type",
-      "value": "Entity"
-    },
-    "inferred": true
+      "attribute": "communicates_with",
+      "value": "Lucy"
+    }
+  },
+  {
+    "triple": {
+      "entity": "Wilfred King",
+      "attribute": "requests",
+      "value": "return_info"
+    }
+  },
+  {
+    "triple": {
+      "entity": "return_info",
+      "attribute": "has_purpose",
+      "value": "obtain details"
+    }
+  },
+  {
+    "triple": {
+      "entity": "Wilfred King",
+      "attribute": "requests",
+      "value": "educational_support"
+    }
+  },
+  {
+    "triple": {
+      "entity": "educational_support",
+      "attribute": "has_purpose",
+      "value": "obtain information"
+    }
+  },
+  {
+    "triple": {
+      "entity": "Wilfred King",
+      "attribute": "requests",
+      "value": "link"
+    }
+  },
+  {
+    "triple": {
+      "entity": "Message1",
+      "attribute": "sender",
+      "value": "Lucy"
+    }
+  },
+  {
+    "triple": {
+      "entity": "Message1",
+      "attribute": "receiver",
+      "value": "Wilfred King"
+    }
+  },
+  {
+    "triple": {
+      "entity": "Message1",
+      "attribute": "timestamp",
+      "value": "23/04/2024 04:59"
+    }
+  },
+  {
+    "triple": {
+      "entity": "Message1",
+      "attribute": "message_has_content",
+      "value": "Hello Wilfred, exclusive cryptocurrency investment opportunity through CryptoGrowthX. Guaranteed returns for experienced investors."
+    }
+  },
+  {
+    "triple": {
+      "entity": "Message2",
+      "attribute": "sender",
+      "value": "Wilfred King"
+    }
+  },
+  {
+    "triple": {
+      "entity": "Message2",
+      "attribute": "receiver",
+      "value": "Lucy"
+    }
+  },
+  {
+    "triple": {
+      "entity": "Message2",
+      "attribute": "timestamp",
+      "value": "23/04/2024 05:46"
+    }
+  },
+  {
+    "triple": {
+      "entity": "Message2",
+      "attribute": "message_has_content",
+      "value": "I've never invested in cryptocurrency. Is there educational support for beginners?"
+    }
+  },
+  {
+    "triple": {
+      "entity": "Message3",
+      "attribute": "sender",
+      "value": "Lucy"
+    }
+  },
+  {
+    "triple": {
+      "entity": "Message3",
+      "attribute": "receiver",
+      "value": "Wilfred King"
+    }
+  },
+  {
+    "triple": {
+      "entity": "Message3",
+      "attribute": "timestamp",
+      "value": "23/04/2024 06:32"
+    }
+  },
+  {
+    "triple": {
+      "entity": "Message3",
+      "attribute": "message_has_content",
+      "value": "Absolutely Wilfred! CryptoGrowthX provides full educational support and personal guidance throughout your investment journey."
+    }
+  },
+  {
+    "triple": {
+      "entity": "Message4",
+      "attribute": "sender",
+      "value": "Wilfred King"
+    }
+  },
+  {
+    "triple": {
+      "entity": "Message4",
+      "attribute": "receiver",
+      "value": "Lucy"
+    }
+  },
+  {
+    "triple": {
+      "entity": "Message4",
+      "attribute": "timestamp",
+      "value": "23/04/2024 07:18"
+    }
+  },
+  {
+    "triple": {
+      "entity": "Message4",
+      "attribute": "message_has_content",
+      "value": "Where to look for more details?"
+    }
+  },
+  {
+    "triple": {
+      "entity": "Message5",
+      "attribute": "sender",
+      "value": "Lucy"
+    }
+  },
+  {
+    "triple": {
+      "entity": "Message5",
+      "attribute": "receiver",
+      "value": "Wilfred King"
+    }
+  },
+  {
+    "triple": {
+      "entity": "Message5",
+      "attribute": "timestamp",
+      "value": "23/04/2024 08:04"
+    }
+  },
+  {
+    "triple": {
+      "entity": "Message5",
+      "attribute": "message_has_content",
+      "value": "Visit http://www.CryptoGrowthX.com"
+    }
   },
   {
     "triple": {
@@ -312,6 +248,14 @@
   },
   {
     "triple": {
+      "entity": "educational_support",
+      "attribute": "rdf:type",
+      "value": "Transaction"
+    },
+    "inferred": true
+  },
+  {
+    "triple": {
       "entity": "personal_guidance",
       "attribute": "rdf:type",
       "value": "Action"
@@ -320,7 +264,15 @@
   },
   {
     "triple": {
-      "entity": "investment_journey_details",
+      "entity": "personal_guidance",
+      "attribute": "rdf:type",
+      "value": "Transaction"
+    },
+    "inferred": true
+  },
+  {
+    "triple": {
+      "entity": "link",
       "attribute": "rdf:type",
       "value": "Action"
     },
@@ -328,7 +280,31 @@
   },
   {
     "triple": {
-      "entity": "detailed_information",
+      "entity": "link",
+      "attribute": "rdf:type",
+      "value": "Message"
+    },
+    "inferred": true
+  },
+  {
+    "triple": {
+      "entity": "http://www.CryptoGrowthX.com",
+      "attribute": "rdf:type",
+      "value": "Entity"
+    },
+    "inferred": true
+  },
+  {
+    "triple": {
+      "entity": "Wilfred King",
+      "attribute": "rdf:type",
+      "value": "Entity"
+    },
+    "inferred": true
+  },
+  {
+    "triple": {
+      "entity": "return_info",
       "attribute": "rdf:type",
       "value": "Action"
     },
@@ -336,121 +312,89 @@
   },
   {
     "triple": {
-      "entity": "investment_opportunity",
+      "entity": "return_info",
       "attribute": "rdf:type",
-      "value": "Action"
+      "value": "Transaction"
     },
     "inferred": true
   },
   {
     "triple": {
-      "entity": "investment_opportunity_details",
+      "entity": "Message1",
       "attribute": "rdf:type",
-      "value": "Action"
+      "value": "Exchange"
     },
     "inferred": true
   },
   {
     "triple": {
-      "entity": "investment_opportunity_link",
+      "entity": "Message1",
       "attribute": "rdf:type",
-      "value": "Action"
+      "value": "Message"
     },
     "inferred": true
   },
   {
     "triple": {
-      "entity": "investment_opportunity_description",
+      "entity": "Message2",
       "attribute": "rdf:type",
-      "value": "Action"
+      "value": "Exchange"
     },
     "inferred": true
   },
   {
     "triple": {
-      "entity": "investment_opportunity_guaranteed_returns",
+      "entity": "Message2",
       "attribute": "rdf:type",
-      "value": "Action"
+      "value": "Message"
     },
     "inferred": true
   },
   {
     "triple": {
-      "entity": "investment_opportunity_experienced_investors",
+      "entity": "Message3",
       "attribute": "rdf:type",
-      "value": "Action"
+      "value": "Exchange"
     },
     "inferred": true
   },
   {
     "triple": {
-      "entity": "investment_opportunity_exclusive_access",
+      "entity": "Message3",
       "attribute": "rdf:type",
-      "value": "Action"
+      "value": "Message"
     },
     "inferred": true
   },
   {
     "triple": {
-      "entity": "investment_opportunity_secure_registration",
+      "entity": "Message4",
       "attribute": "rdf:type",
-      "value": "Action"
+      "value": "Exchange"
     },
     "inferred": true
   },
   {
     "triple": {
-      "entity": "investment_opportunity_educational_support",
+      "entity": "Message4",
       "attribute": "rdf:type",
-      "value": "Action"
+      "value": "Message"
     },
     "inferred": true
   },
   {
     "triple": {
-      "entity": "investment_opportunity_personal_guidance",
+      "entity": "Message5",
       "attribute": "rdf:type",
-      "value": "Action"
+      "value": "Exchange"
     },
     "inferred": true
   },
   {
     "triple": {
-      "entity": "investment_opportunity_full_support",
+      "entity": "Message5",
       "attribute": "rdf:type",
-      "value": "Action"
-    },
-    "inferred": true
-  },
-  {
-    "triple": {
-      "entity": "investment_opportunity_journey_details",
-      "attribute": "rdf:type",
-      "value": "Action"
-    },
-    "inferred": true
-  },
-  {
-    "triple": {
-      "entity": "investment_opportunity_journey_guidance",
-      "attribute": "rdf:type",
-      "value": "Action"
-    },
-    "inferred": true
-  },
-  {
-    "triple": {
-      "entity": "investment_opportunity_journey_support",
-      "attribute": "rdf:type",
-      "value": "Action"
-    },
-    "inferred": true
-  },
-  {
-    "triple": {
-      "entity": "investment_opportunity_j",
-      "attribute": "rdf:type",
-      "value": "Action"
+      "value": "Message"
     },
     "inferred": true
   }
