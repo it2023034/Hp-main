@@ -1,71 +1,271 @@
 [
   {
     "triple": {
-      "entity": "Harold Wilson",
-      "attribute": "communicates_with",
-      "value": "Kevin"
-    },
-    "explanation": "Harold Wilson communicates with Kevin because he expressed interest in the opportunity and asked questions, indicating they are discussing it together."
-  },
-  {
-    "triple": {
-      "entity": "Kevin",
-      "attribute": "communicates_with",
-      "value": "Harold Wilson"
-    },
-    "explanation": "Kevin communicates with Harold Wilson because he is introducing the platform and discussing investment details with him."
-  },
-  {
-    "triple": {
-      "entity": "Kevin",
+      "entity": "Lucy",
       "attribute": "provides",
-      "value": "registration_link"
+      "value": "educational_support"
     },
-    "explanation": "Kevin provides the registration link because he instructed Harold Wilson to visit http://www.CryptoGrowthX.com."
+    "explanation": "Lucy offers educational support to Wilfred because she mentions providing full educational support and personal guidance throughout his investment journey."
   },
   {
     "triple": {
-      "entity": "Harold Wilson",
-      "attribute": "requests",
-      "value": "return_information"
-    },
-    "explanation": "Harold Wilson requests return_information because he inquires about guaranteed returns offered by CryptoGrowthX."
-  },
-  {
-    "triple": {
-      "entity": "Harold Wilson",
-      "attribute": "requests",
-      "value": "investment_amount"
-    },
-    "explanation": "Harold Wilson requests an investment amount of £2,500 because he and his wife discussed investing £2,500 together."
-  },
-  {
-    "triple": {
-      "entity": "Harold Wilson",
-      "attribute": "requests",
-      "value": "investment_confirmation"
-    },
-    "explanation": "Harold Wilson requests investment confirmation because he has decided to invest £2,500 as discussed with his wife."
-  },
-  {
-    "triple": {
-      "entity": "investment_service",
+      "entity": "educational_support",
       "attribute": "has_purpose",
-      "value": "generate_returns"
+      "value": "provide guidance"
     },
-    "explanation": "Kevin mentions generating returns as a purpose of CryptoGrowthX because he claims it offers guaranteed returns for experienced investors."
+    "explanation": "Lucy mentions providing educational support and personal guidance as part of the investment opportunity."
   },
   {
     "triple": {
-      "entity": "CryptoGrowthX",
-      "attribute": "website",
+      "entity": "Lucy",
+      "attribute": "provides",
+      "value": "personal_guidance"
+    },
+    "explanation": "Lucy offers personal guidance as part of her educational support for beginners interested in cryptocurrency investment opportunities."
+  },
+  {
+    "triple": {
+      "entity": "personal_guidance",
+      "attribute": "has_purpose",
+      "value": "accompany throughout investment journey"
+    },
+    "explanation": "Lucy's assurance of full educational support and personal guidance throughout the investment journey aligns with the triple stating that personal guidance has the purpose of accompanying throughout the investment journey."
+  },
+  {
+    "triple": {
+      "entity": "Lucy",
+      "attribute": "provides",
+      "value": "link"
+    },
+    "explanation": "Lucy offers Wilfred a link to learn more about the exclusive cryptocurrency investment opportunity because she believes it will help him understand the risks and benefits of investing in cryptocurrency."
+  },
+  {
+    "triple": {
+      "entity": "link",
+      "attribute": "refers_to_entity",
       "value": "http://www.CryptoGrowthX.com"
     },
-    "explanation": "Kevin mentions the website URL because he provides it as part of the registration instructions for CryptoGrowthX."
+    "explanation": "Lucy provided the link to http://www.CryptoGrowthX.com as part of her offer to educate Wilfred about the guaranteed returns investment opportunity."
   },
   {
     "triple": {
-      "entity": "Harold Wilson",
+      "entity": "Lucy",
+      "attribute": "communicates_with",
+      "value": "Wilfred King"
+    },
+    "explanation": "Lucy communicated with Wilfred King about an exclusive cryptocurrency investment opportunity to provide educational support for beginners."
+  },
+  {
+    "triple": {
+      "entity": "Wilfred King",
+      "attribute": "communicates_with",
+      "value": "Lucy"
+    },
+    "explanation": "Wilfred King asks for more details about the educational support offered, indicating his interest in learning before investing, which demonstrates their ongoing communication about the investment opportunity."
+  },
+  {
+    "triple": {
+      "entity": "Wilfred King",
+      "attribute": "requests",
+      "value": "return_info"
+    },
+    "explanation": "Wilfred King requests return_info because he expresses interest in guaranteed returns for beginners in the exclusive cryptocurrency investment opportunity."
+  },
+  {
+    "triple": {
+      "entity": "return_info",
+      "attribute": "has_purpose",
+      "value": "obtain details"
+    },
+    "explanation": "Lucy's message about guaranteed returns for experienced investors implies that Wilfred is seeking information on obtaining details about the investment opportunity."
+  },
+  {
+    "triple": {
+      "entity": "Wilfred King",
+      "attribute": "requests",
+      "value": "educational_support"
+    },
+    "explanation": "Wilfred King requests educational support because he has never invested in cryptocurrency."
+  },
+  {
+    "triple": {
+      "entity": "educational_support",
+      "attribute": "has_purpose",
+      "value": "obtain information"
+    },
+    "explanation": "Lucy's message about educational support for beginners implies that the purpose of obtaining information is to help inexperienced investors like Wilfred King learn about the cryptocurrency investment opportunity."
+  },
+  {
+    "triple": {
+      "entity": "Wilfred King",
+      "attribute": "requests",
+      "value": "link"
+    },
+    "explanation": "Wilfred King requested a link because he needed more details about the exclusive cryptocurrency investment opportunity mentioned by Lucy."
+  },
+  {
+    "triple": {
+      "entity": "Message1",
+      "attribute": "sender",
+      "value": "Lucy"
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "Message1",
+      "attribute": "receiver",
+      "value": "Wilfred King"
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "Message1",
+      "attribute": "timestamp",
+      "value": "23/04/2024 04:59"
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "Message1",
+      "attribute": "message_has_content",
+      "value": "Hello Wilfred, exclusive cryptocurrency investment opportunity through CryptoGrowthX. Guaranteed returns for experienced investors."
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "Message2",
+      "attribute": "sender",
+      "value": "Wilfred King"
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "Message2",
+      "attribute": "receiver",
+      "value": "Lucy"
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "Message2",
+      "attribute": "timestamp",
+      "value": "23/04/2024 05:46"
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "Message2",
+      "attribute": "message_has_content",
+      "value": "I've never invested in cryptocurrency. Is there educational support for beginners?"
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "Message3",
+      "attribute": "sender",
+      "value": "Lucy"
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "Message3",
+      "attribute": "receiver",
+      "value": "Wilfred King"
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "Message3",
+      "attribute": "timestamp",
+      "value": "23/04/2024 06:32"
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "Message3",
+      "attribute": "message_has_content",
+      "value": "Absolutely Wilfred! CryptoGrowthX provides full educational support and personal guidance throughout your investment journey."
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "Message4",
+      "attribute": "sender",
+      "value": "Wilfred King"
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "Message4",
+      "attribute": "receiver",
+      "value": "Lucy"
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "Message4",
+      "attribute": "timestamp",
+      "value": "23/04/2024 07:18"
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "Message4",
+      "attribute": "message_has_content",
+      "value": "Where to look for more details?"
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "Message5",
+      "attribute": "sender",
+      "value": "Lucy"
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "Message5",
+      "attribute": "receiver",
+      "value": "Wilfred King"
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "Message5",
+      "attribute": "timestamp",
+      "value": "23/04/2024 08:04"
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "Message5",
+      "attribute": "message_has_content",
+      "value": "Visit http://www.CryptoGrowthX.com"
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "Lucy",
       "attribute": "rdf:type",
       "value": "Entity"
     },
@@ -73,15 +273,7 @@
   },
   {
     "triple": {
-      "entity": "Kevin",
-      "attribute": "rdf:type",
-      "value": "Entity"
-    },
-    "explanation": ""
-  },
-  {
-    "triple": {
-      "entity": "registration_link",
+      "entity": "educational_support",
       "attribute": "rdf:type",
       "value": "Action"
     },
@@ -89,31 +281,7 @@
   },
   {
     "triple": {
-      "entity": "return_information",
-      "attribute": "rdf:type",
-      "value": "Action"
-    },
-    "explanation": ""
-  },
-  {
-    "triple": {
-      "entity": "investment_amount",
-      "attribute": "rdf:type",
-      "value": "Action"
-    },
-    "explanation": ""
-  },
-  {
-    "triple": {
-      "entity": "investment_confirmation",
-      "attribute": "rdf:type",
-      "value": "Action"
-    },
-    "explanation": ""
-  },
-  {
-    "triple": {
-      "entity": "investment_service",
+      "entity": "educational_support",
       "attribute": "rdf:type",
       "value": "Transaction"
     },
@@ -121,9 +289,145 @@
   },
   {
     "triple": {
-      "entity": "CryptoGrowthX",
+      "entity": "personal_guidance",
+      "attribute": "rdf:type",
+      "value": "Action"
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "personal_guidance",
+      "attribute": "rdf:type",
+      "value": "Transaction"
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "link",
+      "attribute": "rdf:type",
+      "value": "Action"
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "link",
+      "attribute": "rdf:type",
+      "value": "Message"
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "http://www.CryptoGrowthX.com",
       "attribute": "rdf:type",
       "value": "Entity"
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "Wilfred King",
+      "attribute": "rdf:type",
+      "value": "Entity"
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "return_info",
+      "attribute": "rdf:type",
+      "value": "Action"
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "return_info",
+      "attribute": "rdf:type",
+      "value": "Transaction"
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "Message1",
+      "attribute": "rdf:type",
+      "value": "Exchange"
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "Message1",
+      "attribute": "rdf:type",
+      "value": "Message"
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "Message2",
+      "attribute": "rdf:type",
+      "value": "Exchange"
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "Message2",
+      "attribute": "rdf:type",
+      "value": "Message"
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "Message3",
+      "attribute": "rdf:type",
+      "value": "Exchange"
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "Message3",
+      "attribute": "rdf:type",
+      "value": "Message"
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "Message4",
+      "attribute": "rdf:type",
+      "value": "Exchange"
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "Message4",
+      "attribute": "rdf:type",
+      "value": "Message"
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "Message5",
+      "attribute": "rdf:type",
+      "value": "Exchange"
+    },
+    "explanation": ""
+  },
+  {
+    "triple": {
+      "entity": "Message5",
+      "attribute": "rdf:type",
+      "value": "Message"
     },
     "explanation": ""
   }
